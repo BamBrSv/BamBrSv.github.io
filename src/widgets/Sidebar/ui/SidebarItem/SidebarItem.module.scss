@@ -4,9 +4,9 @@
   font-size: 18px;
   padding: 6px 12px;
 
-  &:hover {
+  &:hover:not(.is-active) {
     transition: color 0.2s ease-in-out;
-    color: var(--color-text-white);
+    color: rgb(75, 75, 75);
   }
 }
 
