@@ -1,0 +1,19 @@
+.biography {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: black;
+}
+
+.article {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  border-radius: 10px;
+  row-gap: 10px;
+  background-color: rgba($color: #c9c9c9, $alpha: 0.2);
+
+  &-body {
+    text-align: 'justify';
+  }
+}

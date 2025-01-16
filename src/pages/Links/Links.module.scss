@@ -1,0 +1,33 @@
+.links {
+  color: black;
+}
+.title {
+  font-size: 32px;
+}
+
+.card {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &-item {
+    max-width: 300px;
+    background-color: rgba($color: #c9c9c9, $alpha: 0.2);
+  }
+}
+
+.literature-title {
+  font-weight: bold;
+}
+
+.literature-author {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.link {
+  margin-top: 20px;
+}
