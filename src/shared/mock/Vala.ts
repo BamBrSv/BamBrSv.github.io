@@ -11,7 +11,7 @@ import { Data } from '@shared/types';
 
 export const mainResponseRu: Data = {
   info: {
-    imageUrl: '/photo_2023-12-27_15-15-42.jpg',
+    imageUrl: './photo_2023-12-27_15-15-42.jpg',
     name: 'Дудо Иван Николаевич',
     profession: 'Backend разработчик',
     education:
@@ -111,7 +111,7 @@ export const mainResponseRu: Data = {
 };
 export const mainResponseEng: Data = {
   info: {
-    imageUrl: '/photo_2023-12-27_15-15-42.jpg',
+    imageUrl: './photo_2023-12-27_15-15-42.jpg',
     name: 'Dudo Ivan Nikolaevich',
     profession: 'Backend developer',
     education:
@@ -631,8 +631,8 @@ export const LinkResponse = {
 
 export const PersonalLink = {
   title: 'Люблю музыку, книги и винду',
-  video: '/Реклама Apple Macintosh 1984.mp4',
-  preview: '/images.jpg',
+  video: './Реклама Apple Macintosh 1984.mp4',
+  preview: './images.jpg',
 };
 
 export const UemkResponse = {
@@ -642,45 +642,45 @@ export const UemkResponse = {
   lectures: [
     {
       title: 'Введение в MongoDB',
-      pathDocument: '/uemkValentin/1.docx',
+      pathDocument: './uemkValentin/1.docx',
     },
     {
       title: 'Структура данных в MongoDB',
-      pathDocument: '/uemkValentin/2.docx',
+      pathDocument: './uemkValentin/2.docx',
     },
     {
       title: 'CRUD-операции в MongoDB',
-      pathDocument: '/uemkValentin/3.docx',
+      pathDocument: './uemkValentin/3.docx',
     },
     {
       title: 'Агрегации и обработка данных в MongoDB',
-      pathDocument: '/uemkValentin/4.docx',
+      pathDocument: './uemkValentin/4.docx',
     },
     {
       title: 'Репликация и шардирование в MongoDB',
-      pathDocument: '/uemkValentin/5.docx',
+      pathDocument: './uemkValentin/5.docx',
     },
     {
       title: 'Безопасность и администрирование MongoDB',
-      pathDocument: '/uemkValentin/6.docx',
+      pathDocument: './uemkValentin/6.docx',
     },
     {
       title: 'Интеграция MongoDB в приложения',
-      pathDocument: '/uemkValentin/7.docx',
+      pathDocument: './uemkValentin/7.docx',
     },
   ],
   tasks: [
     {
       title: 'Основы работы с MongoDB',
-      pathDocument: '/uemkValentin/tasks/1.docx',
+      pathDocument: './uemkValentin/tasks/1.docx',
     },
     {
       title: 'Использование агрегаций и индексов',
-      pathDocument: '/uemkValentin/tasks/2.docx',
+      pathDocument: './uemkValentin/tasks/2.docx',
     },
     {
       title: 'Интеграция MongoDB в приложение',
-      pathDocument: '/uemkValentin/tasks/3.docx',
+      pathDocument: './uemkValentin/tasks/3.docx',
     },
   ],
   dopMatireals: [
@@ -704,7 +704,7 @@ export const UemkResponse = {
     },
   ],
   authour: 'Дудо Иван',
-  kriteri: '/uemkValentin/kriteri.docx',
+  kriteri: './uemkValentin/kriteri.docx',
 };
 
 export default {
