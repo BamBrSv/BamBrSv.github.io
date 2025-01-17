@@ -10,9 +10,9 @@ export const Test = () => {
       <div className={cls.profile}>
         <script src="https://forms.yandex.ru/_static/embed.js"></script>
         <iframe
-          src="https://forms.yandex.ru/u/6750c00150569073f7a87815/?iframe=1"
+          src="https://forms.yandex.ru/cloud/6789b01150569074596896ef/?iframe=1"
           frameBorder="0"
-          name="ya-form-6750c00150569073f7a87815"
+          name="ya-form-6789b01150569074596896ef"
           width="650"
         ></iframe>
       </div>
