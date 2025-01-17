@@ -597,23 +597,22 @@ export const LibraryResponse = [
 export const LinkResponse = {
   literature: [
     {
-      title: 'Monitoring and Observability for Modern Web Applications',
-      authors: 'Cindy Sridharan',
+      title: 'Genetic Algorithms in Search, Optimization, and Machine Learning',
+      authors: 'David E. Goldberg',
       description:
-        'Книга подробно описывает подходы к мониторингу и наблюдаемости в веб-приложениях, включая использование метрик, журналов и трассировок для анализа производительности и ошибок.',
+        ' Книга охватывает основные концепции, такие как операторы скрещивания, мутации и селекции, а также их использование для решения реальных задач.',
     },
     {
-      title: 'Site Reliability Engineering: How Google Runs Production Systems',
-      authors:
-        'Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff',
+      title: 'Genetic Algorithms: A Practical Approach',
+      authors: 'Roland A. O. M. Santos',
       description:
-        'Эта книга рассказывает о принципах и практиках, используемых Google для построения надежных и производительных систем, включая инструменты для отслеживания ошибок и управления метриками.',
+        'В этой книге объясняется, как генетические алгоритмы могут быть использованы для решения различных оптимизационных задач. Она включает в себя практические примеры и код на языках программирования.',
     },
     {
-      title: 'Practical Monitoring: Effective Strategies for the Real World',
-      authors: 'Mike Julian',
+      title: 'Evolutionary Algorithms for Solving Multi-Objective Problems',
+      authors: 'Carlos A. Coello Coello',
       description:
-        'Книга дает практическое руководство по настройке систем мониторинга и анализа производительности, описывает инструменты и процессы для быстрого обнаружения проблем и их устранения.',
+        'В этой книге рассматриваются генетические и эволюционные алгоритмы для решения многокритериальных задач.',
     },
   ],
   saits: [
@@ -631,8 +630,7 @@ export const LinkResponse = {
 };
 
 export const PersonalLink = {
-  title:
-    'Я не хотел, чтоб моя жизнь была такой, но в моём пуле всего один герой',
+  title: 'Люблю музыку, книги и винду',
   video: '/Реклама Apple Macintosh 1984.mp4',
   preview: '/images.jpg',
 };
@@ -640,73 +638,72 @@ export const PersonalLink = {
 export const UemkResponse = {
   titleKurs: 'Разработка на JavaScript',
   descriptionKurs:
-    'Данный учебный курс посвящен фундаментальным концепциям и методам программирования на языке JavaScript. Курс направлен на изучение и практическое освоение инструментов, которые позволяют создавать динамичные и интерактивные веб-приложения.В ходе занятий студенты познакомятся с основами JavaScript, включая работу с переменными, функциями, массивами и объектами. Уделено особое внимание асинхронному программированию, включая использование колбэков, промисов и async/await. Рассматриваются ключевые аспекты работы с DOM, обработка событий, а также основы модульного подхода к разработке и взаимодействие с API.Студенты научатся применять теоретические знания на практике, разрабатывая интерактивные пользовательские интерфейсы, управляя состоянием приложений и работая с внешними данными. В рамках курса предлагаются практические задания, имитирующие реальные сценарии веб-разработки, которые помогут развить навыки создания удобных, производительных и масштабируемых приложений с использованием JavaScript.',
+    'Курс по MongoDB обучает основам работы с этой NoSQL базой данных. Курс ориентирован на практическое применение MongoDB.',
   lectures: [
     {
-      title: 'Введение в JavaScript: основы синтаксиса и работы с данными',
+      title: 'Введение в MongoDB',
       pathDocument: '/uemkValentin/1.docx',
     },
     {
-      title: 'Асинхронное программирование: от колбэков к async/await',
+      title: 'Структура данных в MongoDB',
       pathDocument: '/uemkValentin/2.docx',
     },
     {
-      title: 'Взаимодействие с DOM: динамическое управление веб-страницей',
+      title: 'CRUD-операции в MongoDB',
       pathDocument: '/uemkValentin/3.docx',
     },
     {
-      title: 'Модульный подход в JavaScript: структурирование кода',
+      title: 'Агрегации и обработка данных в MongoDB',
       pathDocument: '/uemkValentin/4.docx',
     },
     {
-      title: 'Работа с API и управление данными',
+      title: 'Репликация и шардирование в MongoDB',
       pathDocument: '/uemkValentin/5.docx',
     },
     {
-      title: 'Основы проектирования пользовательских интерфейсов',
+      title: 'Безопасность и администрирование MongoDB',
       pathDocument: '/uemkValentin/6.docx',
     },
     {
-      title: 'Производительность и масштабируемость приложений',
+      title: 'Интеграция MongoDB в приложения',
       pathDocument: '/uemkValentin/7.docx',
     },
   ],
   tasks: [
     {
-      title: 'Динамическое управление DOM',
+      title: 'Основы работы с MongoDB',
       pathDocument: '/uemkValentin/tasks/1.docx',
     },
     {
-      title: 'Работа с API и управление данными',
+      title: 'Использование агрегаций и индексов',
       pathDocument: '/uemkValentin/tasks/2.docx',
     },
     {
-      title: 'Оптимизация производительности интерфейса',
+      title: 'Интеграция MongoDB в приложение',
       pathDocument: '/uemkValentin/tasks/3.docx',
     },
   ],
   dopMatireals: [
     {
-      title: 'MDN Web Docs: JavaScript',
+      title: 'MongoDB Documentation',
       description:
-        'Официальная документация по JavaScript, содержащая основы языка, примеры кода и руководство по передовым темам.',
-      link: 'https://developer.mozilla.org/ru/docs/Web/JavaScript',
+        'Официальная документация MongoDB Это основной источник информации, включая подробные руководства, API-референсы и лучшие практики.',
+      link: 'https://docs.mongodb.com/',
     },
     {
-      title: 'Eloquent JavaScript',
+      title: 'MongoDB Tutorials (TutorialsPoint)',
       description:
-        'Бесплатная онлайн-книга, подробно освещающая основы и более сложные концепции JavaScript, с примерами и задачами.',
-      link: 'https://eloquentjavascript.net/',
+        'Хорошо структурированное руководство по MongoDB, с примерами и объяснениями всех основных функций.',
+      link: 'https://www.tutorialspoint.com/mongodb/index.htm',
     },
     {
-      title:
-        'Asynchronous JavaScript: From Callbacks to Promises to Async/Await',
+      title: 'MongoDB University',
       description:
-        'Статья, объясняющая эволюцию асинхронного программирования в JavaScript с примерами и практическими задачами.',
-      link: 'https://javascript.info/async',
+        'Онлайн-курсы от MongoDB, включающие как базовые, так и углубленные темы, с возможностью получения сертификатов..',
+      link: 'https://university.mongodb.com/',
     },
   ],
-  authour: 'Матюха Валентин',
+  authour: 'Дудо Иван',
   kriteri: '/uemkValentin/kriteri.docx',
 };
 
@@ -722,15 +719,3 @@ export default {
   PersonalLink: PersonalLink,
   UemkResponse: UemkResponse,
 };
-
-
-
-
-
-
-
-
-
-
-
-
